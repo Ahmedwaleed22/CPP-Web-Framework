@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmvc_framework.a CMakeFiles/mvc_framework.dir/core/Application.cpp.o CMakeFiles/mvc_framework.dir/core/Router.cpp.o CMakeFiles/mvc_framework.dir/core/Response.cpp.o CMakeFiles/mvc_framework.dir/core/Request.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmvc_framework.a
