@@ -63,7 +63,6 @@ CMAKE_BINARY_DIR = /Users/ahmedwaleed/dev/BetterWebSearch/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/web_server.dir/all
 all: src/all
 .PHONY : all
 
@@ -72,7 +71,6 @@ preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/web_server.dir/clean
 clean: src/clean
 .PHONY : clean
 
@@ -81,6 +79,7 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/mvc_framework.dir/all
+src/all: src/CMakeFiles/web_server.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -89,33 +88,8 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/mvc_framework.dir/clean
+src/clean: src/CMakeFiles/web_server.dir/clean
 .PHONY : src/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/web_server.dir
-
-# All Build rule for target.
-CMakeFiles/web_server.dir/all: src/CMakeFiles/mvc_framework.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=6,7 "Built target web_server"
-.PHONY : CMakeFiles/web_server.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/web_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/web_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles 0
-.PHONY : CMakeFiles/web_server.dir/rule
-
-# Convenience name for target.
-web_server: CMakeFiles/web_server.dir/rule
-.PHONY : web_server
-
-# clean rule for target.
-CMakeFiles/web_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/clean
-.PHONY : CMakeFiles/web_server.dir/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/mvc_framework.dir
@@ -124,12 +98,12 @@ CMakeFiles/web_server.dir/clean:
 src/CMakeFiles/mvc_framework.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target mvc_framework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target mvc_framework"
 .PHONY : src/CMakeFiles/mvc_framework.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/mvc_framework.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/mvc_framework.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/mvc_framework.dir/rule
@@ -142,6 +116,32 @@ mvc_framework: src/CMakeFiles/mvc_framework.dir/rule
 src/CMakeFiles/mvc_framework.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/clean
 .PHONY : src/CMakeFiles/mvc_framework.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/web_server.dir
+
+# All Build rule for target.
+src/CMakeFiles/web_server.dir/all: src/CMakeFiles/mvc_framework.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=7,8 "Built target web_server"
+.PHONY : src/CMakeFiles/web_server.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/web_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/web_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/web_server.dir/rule
+
+# Convenience name for target.
+web_server: src/CMakeFiles/web_server.dir/rule
+.PHONY : web_server
+
+# clean rule for target.
+src/CMakeFiles/web_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/clean
+.PHONY : src/CMakeFiles/web_server.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

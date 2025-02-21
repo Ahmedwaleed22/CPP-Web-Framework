@@ -69,79 +69,95 @@ include src/CMakeFiles/mvc_framework.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/mvc_framework.dir/flags.make
 
-src/CMakeFiles/mvc_framework.dir/core/Application.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
-src/CMakeFiles/mvc_framework.dir/core/Application.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Application.cpp
-src/CMakeFiles/mvc_framework.dir/core/Application.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mvc_framework.dir/core/Application.cpp.o"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/core/Application.cpp.o -MF CMakeFiles/mvc_framework.dir/core/Application.cpp.o.d -o CMakeFiles/mvc_framework.dir/core/Application.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Application.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
+src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/core/Application.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o -MF CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o.d -o CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/core/Application.cpp
 
-src/CMakeFiles/mvc_framework.dir/core/Application.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/core/Application.cpp.i"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Application.cpp > CMakeFiles/mvc_framework.dir/core/Application.cpp.i
+src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/__/core/Application.cpp.i"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/core/Application.cpp > CMakeFiles/mvc_framework.dir/__/core/Application.cpp.i
 
-src/CMakeFiles/mvc_framework.dir/core/Application.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/core/Application.cpp.s"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Application.cpp -o CMakeFiles/mvc_framework.dir/core/Application.cpp.s
+src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/__/core/Application.cpp.s"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/core/Application.cpp -o CMakeFiles/mvc_framework.dir/__/core/Application.cpp.s
 
-src/CMakeFiles/mvc_framework.dir/core/Router.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
-src/CMakeFiles/mvc_framework.dir/core/Router.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Router.cpp
-src/CMakeFiles/mvc_framework.dir/core/Router.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mvc_framework.dir/core/Router.cpp.o"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/core/Router.cpp.o -MF CMakeFiles/mvc_framework.dir/core/Router.cpp.o.d -o CMakeFiles/mvc_framework.dir/core/Router.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Router.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
+src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/core/Router.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o -MF CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o.d -o CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/core/Router.cpp
 
-src/CMakeFiles/mvc_framework.dir/core/Router.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/core/Router.cpp.i"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Router.cpp > CMakeFiles/mvc_framework.dir/core/Router.cpp.i
+src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/__/core/Router.cpp.i"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/core/Router.cpp > CMakeFiles/mvc_framework.dir/__/core/Router.cpp.i
 
-src/CMakeFiles/mvc_framework.dir/core/Router.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/core/Router.cpp.s"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Router.cpp -o CMakeFiles/mvc_framework.dir/core/Router.cpp.s
+src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/__/core/Router.cpp.s"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/core/Router.cpp -o CMakeFiles/mvc_framework.dir/__/core/Router.cpp.s
 
-src/CMakeFiles/mvc_framework.dir/core/Response.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
-src/CMakeFiles/mvc_framework.dir/core/Response.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Response.cpp
-src/CMakeFiles/mvc_framework.dir/core/Response.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mvc_framework.dir/core/Response.cpp.o"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/core/Response.cpp.o -MF CMakeFiles/mvc_framework.dir/core/Response.cpp.o.d -o CMakeFiles/mvc_framework.dir/core/Response.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Response.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
+src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/core/Response.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o -MF CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o.d -o CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/core/Response.cpp
 
-src/CMakeFiles/mvc_framework.dir/core/Response.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/core/Response.cpp.i"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Response.cpp > CMakeFiles/mvc_framework.dir/core/Response.cpp.i
+src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/__/core/Response.cpp.i"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/core/Response.cpp > CMakeFiles/mvc_framework.dir/__/core/Response.cpp.i
 
-src/CMakeFiles/mvc_framework.dir/core/Response.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/core/Response.cpp.s"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Response.cpp -o CMakeFiles/mvc_framework.dir/core/Response.cpp.s
+src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/__/core/Response.cpp.s"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/core/Response.cpp -o CMakeFiles/mvc_framework.dir/__/core/Response.cpp.s
 
-src/CMakeFiles/mvc_framework.dir/core/Request.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
-src/CMakeFiles/mvc_framework.dir/core/Request.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Request.cpp
-src/CMakeFiles/mvc_framework.dir/core/Request.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mvc_framework.dir/core/Request.cpp.o"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/core/Request.cpp.o -MF CMakeFiles/mvc_framework.dir/core/Request.cpp.o.d -o CMakeFiles/mvc_framework.dir/core/Request.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Request.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
+src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/core/Request.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o -MF CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o.d -o CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/core/Request.cpp
 
-src/CMakeFiles/mvc_framework.dir/core/Request.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/core/Request.cpp.i"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Request.cpp > CMakeFiles/mvc_framework.dir/core/Request.cpp.i
+src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/__/core/Request.cpp.i"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/core/Request.cpp > CMakeFiles/mvc_framework.dir/__/core/Request.cpp.i
 
-src/CMakeFiles/mvc_framework.dir/core/Request.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/core/Request.cpp.s"
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/src/core/Request.cpp -o CMakeFiles/mvc_framework.dir/core/Request.cpp.s
+src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/__/core/Request.cpp.s"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/core/Request.cpp -o CMakeFiles/mvc_framework.dir/__/core/Request.cpp.s
+
+src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.o: src/CMakeFiles/mvc_framework.dir/flags.make
+src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.o: /Users/ahmedwaleed/dev/BetterWebSearch/core/View.cpp
+src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.o: src/CMakeFiles/mvc_framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.o"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.o -MF CMakeFiles/mvc_framework.dir/__/core/View.cpp.o.d -o CMakeFiles/mvc_framework.dir/__/core/View.cpp.o -c /Users/ahmedwaleed/dev/BetterWebSearch/core/View.cpp
+
+src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mvc_framework.dir/__/core/View.cpp.i"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmedwaleed/dev/BetterWebSearch/core/View.cpp > CMakeFiles/mvc_framework.dir/__/core/View.cpp.i
+
+src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mvc_framework.dir/__/core/View.cpp.s"
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmedwaleed/dev/BetterWebSearch/core/View.cpp -o CMakeFiles/mvc_framework.dir/__/core/View.cpp.s
 
 # Object files for target mvc_framework
 mvc_framework_OBJECTS = \
-"CMakeFiles/mvc_framework.dir/core/Application.cpp.o" \
-"CMakeFiles/mvc_framework.dir/core/Router.cpp.o" \
-"CMakeFiles/mvc_framework.dir/core/Response.cpp.o" \
-"CMakeFiles/mvc_framework.dir/core/Request.cpp.o"
+"CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o" \
+"CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o" \
+"CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o" \
+"CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o" \
+"CMakeFiles/mvc_framework.dir/__/core/View.cpp.o"
 
 # External object files for target mvc_framework
 mvc_framework_EXTERNAL_OBJECTS =
 
-src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/core/Application.cpp.o
-src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/core/Router.cpp.o
-src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/core/Response.cpp.o
-src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/core/Request.cpp.o
+src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o
+src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o
+src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o
+src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o
+src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.o
 src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/build.make
 src/libmvc_framework.a: src/CMakeFiles/mvc_framework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libmvc_framework.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ahmedwaleed/dev/BetterWebSearch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libmvc_framework.a"
 	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mvc_framework.dir/cmake_clean_target.cmake
 	cd /Users/ahmedwaleed/dev/BetterWebSearch/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mvc_framework.dir/link.txt --verbose=$(VERBOSE)
 

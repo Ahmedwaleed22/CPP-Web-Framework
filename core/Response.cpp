@@ -57,9 +57,12 @@ std::string Response::toString() const {
     return ss.str();
 }
 
-Response Response::ok(const std::string& body) {
+Response Response::ok(const std::string& body, const std::string& contentType) {
     Response response(200);
     response.setBody(body);
+    if (!contentType.empty()) {
+        response.setContentType(contentType);
+    }
     return response;
 }
 

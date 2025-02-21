@@ -1,13 +1,18 @@
-#include "core/Application.hpp"
-#include "core/Request.hpp"
-#include "core/Response.hpp"
+#include "../core/Application.hpp"
+#include "../core/Request.hpp"
+#include "../core/Response.hpp"
+#include "../core/View.hpp"
 #include <iostream>
 
 using namespace mvc;
 
 // Example handler functions
 Response handleHome(const Request& req) {
-    return Response::ok("Welcome to home page");
+    View view("views/home.html");
+    view.setVariable("title", "Better Web Search");
+    view.setVariable("heading", "Better Web Search");
+    view.setVariable("content", "Welcome to our advanced web search platform");
+    return Response::ok(view.render(), "text/html");
 }
 
 Response handleSearch(const Request& req) {

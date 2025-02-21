@@ -130,101 +130,163 @@ mvc_framework/fast:
 	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/build
 .PHONY : mvc_framework/fast
 
-core/Application.o: core/Application.cpp.o
-.PHONY : core/Application.o
+# Convenience name for target.
+src/CMakeFiles/web_server.dir/rule:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/web_server.dir/rule
+.PHONY : src/CMakeFiles/web_server.dir/rule
+
+# Convenience name for target.
+web_server: src/CMakeFiles/web_server.dir/rule
+.PHONY : web_server
+
+# fast build rule for target.
+web_server/fast:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/build
+.PHONY : web_server/fast
+
+__/core/Application.o: __/core/Application.cpp.o
+.PHONY : __/core/Application.o
 
 # target to build an object file
-core/Application.cpp.o:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Application.cpp.o
-.PHONY : core/Application.cpp.o
+__/core/Application.cpp.o:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.o
+.PHONY : __/core/Application.cpp.o
 
-core/Application.i: core/Application.cpp.i
-.PHONY : core/Application.i
+__/core/Application.i: __/core/Application.cpp.i
+.PHONY : __/core/Application.i
 
 # target to preprocess a source file
-core/Application.cpp.i:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Application.cpp.i
-.PHONY : core/Application.cpp.i
+__/core/Application.cpp.i:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.i
+.PHONY : __/core/Application.cpp.i
 
-core/Application.s: core/Application.cpp.s
-.PHONY : core/Application.s
+__/core/Application.s: __/core/Application.cpp.s
+.PHONY : __/core/Application.s
 
 # target to generate assembly for a file
-core/Application.cpp.s:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Application.cpp.s
-.PHONY : core/Application.cpp.s
+__/core/Application.cpp.s:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Application.cpp.s
+.PHONY : __/core/Application.cpp.s
 
-core/Request.o: core/Request.cpp.o
-.PHONY : core/Request.o
+__/core/Request.o: __/core/Request.cpp.o
+.PHONY : __/core/Request.o
 
 # target to build an object file
-core/Request.cpp.o:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Request.cpp.o
-.PHONY : core/Request.cpp.o
+__/core/Request.cpp.o:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.o
+.PHONY : __/core/Request.cpp.o
 
-core/Request.i: core/Request.cpp.i
-.PHONY : core/Request.i
+__/core/Request.i: __/core/Request.cpp.i
+.PHONY : __/core/Request.i
 
 # target to preprocess a source file
-core/Request.cpp.i:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Request.cpp.i
-.PHONY : core/Request.cpp.i
+__/core/Request.cpp.i:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.i
+.PHONY : __/core/Request.cpp.i
 
-core/Request.s: core/Request.cpp.s
-.PHONY : core/Request.s
+__/core/Request.s: __/core/Request.cpp.s
+.PHONY : __/core/Request.s
 
 # target to generate assembly for a file
-core/Request.cpp.s:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Request.cpp.s
-.PHONY : core/Request.cpp.s
+__/core/Request.cpp.s:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Request.cpp.s
+.PHONY : __/core/Request.cpp.s
 
-core/Response.o: core/Response.cpp.o
-.PHONY : core/Response.o
+__/core/Response.o: __/core/Response.cpp.o
+.PHONY : __/core/Response.o
 
 # target to build an object file
-core/Response.cpp.o:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Response.cpp.o
-.PHONY : core/Response.cpp.o
+__/core/Response.cpp.o:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.o
+.PHONY : __/core/Response.cpp.o
 
-core/Response.i: core/Response.cpp.i
-.PHONY : core/Response.i
+__/core/Response.i: __/core/Response.cpp.i
+.PHONY : __/core/Response.i
 
 # target to preprocess a source file
-core/Response.cpp.i:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Response.cpp.i
-.PHONY : core/Response.cpp.i
+__/core/Response.cpp.i:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.i
+.PHONY : __/core/Response.cpp.i
 
-core/Response.s: core/Response.cpp.s
-.PHONY : core/Response.s
+__/core/Response.s: __/core/Response.cpp.s
+.PHONY : __/core/Response.s
 
 # target to generate assembly for a file
-core/Response.cpp.s:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Response.cpp.s
-.PHONY : core/Response.cpp.s
+__/core/Response.cpp.s:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Response.cpp.s
+.PHONY : __/core/Response.cpp.s
 
-core/Router.o: core/Router.cpp.o
-.PHONY : core/Router.o
+__/core/Router.o: __/core/Router.cpp.o
+.PHONY : __/core/Router.o
 
 # target to build an object file
-core/Router.cpp.o:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Router.cpp.o
-.PHONY : core/Router.cpp.o
+__/core/Router.cpp.o:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.o
+.PHONY : __/core/Router.cpp.o
 
-core/Router.i: core/Router.cpp.i
-.PHONY : core/Router.i
+__/core/Router.i: __/core/Router.cpp.i
+.PHONY : __/core/Router.i
 
 # target to preprocess a source file
-core/Router.cpp.i:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Router.cpp.i
-.PHONY : core/Router.cpp.i
+__/core/Router.cpp.i:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.i
+.PHONY : __/core/Router.cpp.i
 
-core/Router.s: core/Router.cpp.s
-.PHONY : core/Router.s
+__/core/Router.s: __/core/Router.cpp.s
+.PHONY : __/core/Router.s
 
 # target to generate assembly for a file
-core/Router.cpp.s:
-	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/core/Router.cpp.s
-.PHONY : core/Router.cpp.s
+__/core/Router.cpp.s:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/Router.cpp.s
+.PHONY : __/core/Router.cpp.s
+
+__/core/View.o: __/core/View.cpp.o
+.PHONY : __/core/View.o
+
+# target to build an object file
+__/core/View.cpp.o:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.o
+.PHONY : __/core/View.cpp.o
+
+__/core/View.i: __/core/View.cpp.i
+.PHONY : __/core/View.i
+
+# target to preprocess a source file
+__/core/View.cpp.i:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.i
+.PHONY : __/core/View.cpp.i
+
+__/core/View.s: __/core/View.cpp.s
+.PHONY : __/core/View.s
+
+# target to generate assembly for a file
+__/core/View.cpp.s:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/__/core/View.cpp.s
+.PHONY : __/core/View.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /Users/ahmedwaleed/dev/BetterWebSearch/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -235,18 +297,25 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mvc_framework"
-	@echo "... core/Application.o"
-	@echo "... core/Application.i"
-	@echo "... core/Application.s"
-	@echo "... core/Request.o"
-	@echo "... core/Request.i"
-	@echo "... core/Request.s"
-	@echo "... core/Response.o"
-	@echo "... core/Response.i"
-	@echo "... core/Response.s"
-	@echo "... core/Router.o"
-	@echo "... core/Router.i"
-	@echo "... core/Router.s"
+	@echo "... web_server"
+	@echo "... __/core/Application.o"
+	@echo "... __/core/Application.i"
+	@echo "... __/core/Application.s"
+	@echo "... __/core/Request.o"
+	@echo "... __/core/Request.i"
+	@echo "... __/core/Request.s"
+	@echo "... __/core/Response.o"
+	@echo "... __/core/Response.i"
+	@echo "... __/core/Response.s"
+	@echo "... __/core/Router.o"
+	@echo "... __/core/Router.i"
+	@echo "... __/core/Router.s"
+	@echo "... __/core/View.o"
+	@echo "... __/core/View.i"
+	@echo "... __/core/View.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

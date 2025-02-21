@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named web_server
-
-# Build rule for target.
-web_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 web_server
-.PHONY : web_server
-
-# fast build rule for target.
-web_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/build
-.PHONY : web_server/fast
-
-#=============================================================================
 # Target rules for targets named mvc_framework
 
 # Build rule for target.
@@ -142,29 +129,18 @@ mvc_framework/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mvc_framework.dir/build.make src/CMakeFiles/mvc_framework.dir/build
 .PHONY : mvc_framework/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+#=============================================================================
+# Target rules for targets named web_server
 
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+# Build rule for target.
+web_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 web_server
+.PHONY : web_server
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+# fast build rule for target.
+web_server/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/web_server.dir/build.make src/CMakeFiles/web_server.dir/build
+.PHONY : web_server/fast
 
 # Help Target
 help:
@@ -176,9 +152,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... mvc_framework"
 	@echo "... web_server"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 

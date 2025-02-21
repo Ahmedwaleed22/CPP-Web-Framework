@@ -6,7 +6,3 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Add source directories
 add_subdirectory(src)
-
-# Add executable
-add_executable(web_server src/main.cpp)
-target_link_libraries(web_server PRIVATE mvc_framework)

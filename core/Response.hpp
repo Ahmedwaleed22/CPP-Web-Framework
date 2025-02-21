@@ -27,7 +27,7 @@ public:
     std::string toString() const;
 
     // Static response creators
-    static Response ok(const std::string& body = "");
+    static Response ok(const std::string& body = "", const std::string& contentType = "text/plain");
     static Response created(const std::string& body = "");
     static Response badRequest(const std::string& message = "Bad Request");
     static Response notFound(const std::string& message = "Not Found");
